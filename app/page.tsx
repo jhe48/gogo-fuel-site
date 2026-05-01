@@ -36,6 +36,37 @@ export default function Home() {
 
         </div>
       </section>
+
+      {/* Contact Section */}
+      <section className="py-20 bg-black text-white">
+        <div className="max-w-6xl mx-auto px-8 text-center">
+          <h2 className="text-4xl font-bold mb-10">Visit Us</h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+            {/* Location */}
+            <div className="p-6 border border-gray-800 rounded-lg">
+              <h3 className="text-xl font-bold mb-2 text-blue-500">Location</h3>
+              <p className="text-gray-300">
+                Bethpage CITGO<br />
+                4165 Hempstead Turnpike<br />
+                Bethpage, NY 11714
+                </p>   
+            </div>
+
+            {/* Hours */}
+            <div className="p-6 border border-gray-800 rounded -lg">
+              <h3 className="text-xl font-bold mb-2 text-gray-400">Contact</h3>
+              <p className="text-gray-300">
+                Store: (516) 704-1751<br />
+                <span className="text-sm text-gray-500 mt-4 block">
+                  Operated by GOGO FUEL INC.
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>        
     </main>
   );
 }
