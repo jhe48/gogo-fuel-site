@@ -36,6 +36,20 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  icons: {
+    icon: [
+      {
+        media: "(prefers-color-scheme: dark)",
+        url: "/dark-pump.ico",
+        href: "/dark-pump.ico",
+      },
+      {
+        media: "(prefers-color-scheme: light)",
+        url: "/light-pump.ico",
+        href: "/light-pump.ico",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
